@@ -15,3 +15,4 @@
 #  - orcid: https://orcid.org/
 #  - skos: http://www.w3.org/2004/02/skos/core
 subject_id	subject_label	subject_category	predicate_id	object_id	object_label	object_category	match_type	creator_id	subject_source	subject_source_version	object_source	object_source_version	mapping_date	confidence	comment
+dwc:pcr_primer_forward	PCR Primer Forward	http://rs.gbif.org/terms/pcr_primer_forward	skos:narrowMatch	MIXS:0000046	pcr_primers	MIxS core	HumanCurated	orcid:0009-0004-7916-9833	dwc:pcr_primer_forward	dwcversion:vpcr_primer_forward-2024-04-17
