@@ -1,18 +1,21 @@
-#This mapping was created following and expanding upon the SSSOM guidance: https://mapping-commons.github.io/sssom/spec/
-#dcterms:license: CC-0
-#version: 2.0.0
-#creator_id:
-#  - https://orcid.org/0009-0004-7916-9833
-#creator_name:
-#  - Camila Babo
-#curie_map:
-#  - dwc: http://rs.tdwg.org/dwc/terms/
-#  - dwcversion: http://rs.tdwg.org/dwc/terms/version/
-#  - dcterms: http://purl.org/dc/terms/
-#  - dcversion: http://dublincore.org/usage/terms/history/
-#  - MIXS: https://w3id.org/mixs/
-#  - MIXSversion: https://github.com/GenomicsStandardsConsortium/mixs-legacy/blob/master/mixs5/
-#  - orcid: https://orcid.org/
-#  - skos: http://www.w3.org/2004/02/skos/core
+#This mapping was created following and expanding upon the SSSOM guidance: https://mapping-commons.github.io/sssom/spec/															
+#dcterms:license: CC-0															
+#version: 2.0.0															
+#creator_id:															
+#  - https://orcid.org/0009-0004-7916-9833															
+#creator_name:															
+#  - Camila Babo															
+#curie_map:															
+#  - dwc: http://rs.tdwg.org/dwc/terms/															
+#  - dwcversion: http://rs.tdwg.org/dwc/terms/version/															
+#  - dcterms: http://purl.org/dc/terms/															
+#  - dcversion: http://dublincore.org/usage/terms/history/															
+#  - MIXS: https://w3id.org/mixs/															
+#  - MIXSversion: https://github.com/GenomicsStandardsConsortium/mixs-legacy/blob/master/mixs5/															
+#  - orcid: https://orcid.org/															
+#  - skos: http://www.w3.org/2004/02/skos/core															
 subject_id	subject_label	subject_category	predicate_id	object_id	object_label	object_category	match_type	creator_id	subject_source	subject_source_version	object_source	object_source_version	mapping_date	confidence	comment
-dwc:pcr_primer_forward	PCR Primer Forward	http://rs.gbif.org/terms/pcr_primer_forward	skos:narrowMatch	MIXS:0000046	pcr_primers	MIxS core	HumanCurated	orcid:0009-0004-7916-9833	dwc:pcr_primer_forward	dwcversion:vpcr_primer_forward-2024-04-17
+dwc:pcr_primer_forward	PCR Primer Forward	http://rs.gbif.org/terms/pcr_primer_forward	skos:narrowMatch	MIXS:0000046	pcr_primers	MIxS core	HumanCurated	orcid:0009-0004-7916-9833	dwc:pcr_primer_forward	dwcversion:pcr_primer_forward-2024-04-17	MIXSversion:mixs_v5.xlsx	5	2023-03-19	1	DwC expects only the sequence for the forward primer (narrower), while MIxS expects both the forward and reverse primer (broader)
+dwc:pcr_primer_reverse	PCR Primer Reverse	http://rs.gbif.org/terms/pcr_primer_reverse	skos:narrowMatch	MIXS:0000046	pcr_primers	MIxS core	HumanCurated	orcid:0009-0004-7916-9833	dwc:pcr_primer_reverse	dwcversion:pcr_primer_reverse-2024-04-17	MIXSversion:mixs_v5.xlsx	5	2023-03-20	1	DwC expects only the sequence for the reverse primer (narrower), while MIxS expects both the forward and reverse primer (broader)
+dwc:pcr_primer_name_forward	PCR Primer Name Forward	http://rs.gbif.org/terms/pcr_primer_name_forward	skos:narrowMatch	MIXS:0000044	target_gene	MIxS core	HumanCurated	orcid:0009-0004-7916-9833	dwc:pcr_primer_name_forward	dwcversion:pcr_primer_name_forward-2024-04-17	MIXSversion:mixs_v5.xlsx	5	2023-03-20	1	DwC expects only the name of one forward primer (narrower), while MIxS expects multiple primer names (broader). DwC encourages users to create complete rows for each forward primer when multiple primers are used.
+dwc:pcr_primer_name_reverse	PCR Primer Name Reverse	http://rs.gbif.org/terms/pcr_primer_name_reverse	skos:narrowMatch	MIXS:0000044	target_gene	MIxS core	HumanCurated	orcid:0009-0004-7916-9833	dwc:pcr_primer_name_reverse	dwcversion:pcr_primer_name_reverse-2024-04-17	MIXSversion:mixs_v5.xlsx	5	2023-03-20	1	DwC expects only the name of one reverse primer (narrower), while MIxS expects multiple primer names (broader). DwC encourages users to create complete rows for each forward primer when multiple primers are used.
