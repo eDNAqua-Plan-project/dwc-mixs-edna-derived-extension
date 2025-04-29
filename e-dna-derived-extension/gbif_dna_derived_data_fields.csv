@@ -1,0 +1,124 @@
+name,qualName,term_label
+samp_name,https://w3id.org/mixs/0001107,sample name
+occurrenceID,http://rs.tdwg.org/dwc/terms/occurrenceID,
+project_name,https://w3id.org/mixs/0000092,project name
+experimental_factor,https://w3id.org/mixs/0000008,experimental factor
+samp_taxon_id,https://w3id.org/mixs/0001320,taxonomy ID of DNA sample
+neg_cont_type,https://w3id.org/mixs/0001321,negative control type
+pos_cont_type,https://w3id.org/mixs/0001322,positive control type
+env_broad_scale,https://w3id.org/mixs/0000012,broad-scale environmental context
+env_local_scale,https://w3id.org/mixs/0000013,local environmental context
+env_medium,https://w3id.org/mixs/0000014,environmental medium
+subspecf_gen_lin,https://w3id.org/mixs/0000020,subspecific genetic lineage
+ploidy,https://w3id.org/mixs/0000021,ploidy
+num_replicons,https://w3id.org/mixs/0000022,number of replicons
+extrachrom_elements,https://w3id.org/mixs/0000023,extrachromosomal elements
+estimated_size,https://w3id.org/mixs/0000024,estimated size
+ref_biomaterial,https://w3id.org/mixs/0000025,reference for biomaterial
+source_mat_id,https://w3id.org/mixs/0000026,source material identifiers
+pathogenicity,https://w3id.org/mixs/0000027,known pathogenicity
+biotic_relationship,https://w3id.org/mixs/0000028,observed biotic relationship
+specific_host,https://w3id.org/mixs/0000029,host scientific name
+host_spec_range,https://w3id.org/mixs/0000030,host specificity or range
+host_disease_stat,https://w3id.org/mixs/0000031,host disease status
+trophic_level,https://w3id.org/mixs/0000032,trophic level
+propagation,https://w3id.org/mixs/0000033,propagation
+encoded_traits,https://w3id.org/mixs/0000034,encoded traits
+rel_to_oxygen,https://w3id.org/mixs/0000015,relationship to oxygen
+isol_growth_condt,https://w3id.org/mixs/0000003,isolation and growth condition
+samp_collec_device,https://w3id.org/mixs/0000002,sample collection device
+samp_collec_method,https://w3id.org/mixs/0001225,sample collection method
+samp_mat_process,https://w3id.org/mixs/0000016,sample material processing
+size_frac,https://w3id.org/mixs/0000017,size fraction selected
+samp_size,https://w3id.org/mixs/0000001,amount or size of sample collected
+samp_vol_we_dna_ext,https://w3id.org/mixs/0000111,sample volume or weight for DNA extraction
+source_uvig,https://w3id.org/mixs/0000035,source of UViGs
+virus_enrich_appr,https://w3id.org/mixs/0000036,virus enrichment approach
+nucl_acid_ext,https://w3id.org/mixs/0000037,nucleic acid extraction
+nucl_acid_amp,https://w3id.org/mixs/0000038,nucleic acid amplification
+lib_size,https://w3id.org/mixs/0000039,library size
+lib_reads_seqd,https://w3id.org/mixs/0000040,library reads sequenced
+lib_layout,https://w3id.org/mixs/0000041,library layout
+lib_vector,https://w3id.org/mixs/0000042,library vector
+lib_screen,https://w3id.org/mixs/0000043,library screening strategy
+target_gene,https://w3id.org/mixs/0000044,target gene
+target_subfragment,https://w3id.org/mixs/0000045,target subfragment
+pcr_primers,https://w3id.org/mixs/0000046,pcr primers
+mid,https://w3id.org/mixs/0000047,multiplex identifiers
+adapters,https://w3id.org/mixs/0000048,adapters
+pcr_cond,https://w3id.org/mixs/0000049,pcr conditions
+seq_meth,https://w3id.org/mixs/0000050,sequencing method
+seq_quality_check,https://w3id.org/mixs/0000051,sequence quality check
+chimera_check,https://w3id.org/mixs/0000052,chimera check software
+tax_ident,https://w3id.org/mixs/0000053,taxonomic identity marker
+assembly_qual,https://w3id.org/mixs/0000056,assembly quality
+assembly_name,https://w3id.org/mixs/0000057,assembly name
+assembly_software,https://w3id.org/mixs/0000058,assembly software
+annot,https://w3id.org/mixs/0000059,annotation
+number_contig,https://w3id.org/mixs/0000060,number of contigs
+feat_pred,https://w3id.org/mixs/0000061,feature prediction
+ref_db,https://w3id.org/mixs/0000062,reference database
+sim_search_meth,https://w3id.org/mixs/0000063,similarity search method
+tax_class,https://w3id.org/mixs/0000064,taxonomic classification
+_16s_recover,https://w3id.org/mixs/0000065,16S recovered
+_16s_recover_software,https://w3id.org/mixs/0000066,16S recovery software
+trnas,https://w3id.org/mixs/0000067,number of standard tRNAs extracted
+trna_ext_software,https://w3id.org/mixs/0000068,tRNA extraction software
+compl_score,https://w3id.org/mixs/0000069,completeness score
+compl_software,https://w3id.org/mixs/0000070,completeness software
+compl_appr,https://w3id.org/mixs/0000071,completeness approach
+contam_score,https://w3id.org/mixs/0000072,contamination score
+contam_screen_input,https://w3id.org/mixs/0000005,contamination screening input
+contam_screen_param,https://w3id.org/mixs/0000073,contamination screening parameters
+decontam_software,https://w3id.org/mixs/0000074,decontamination software
+sort_tech,https://w3id.org/mixs/0000075,sorting technology
+single_cell_lysis_appr,https://w3id.org/mixs/0000076,single cell or viral particle lysis approach
+single_cell_lysis_prot,https://w3id.org/mixs/0000054,single cell or viral particle lysis kit protocol
+wga_amp_appr,https://w3id.org/mixs/0000055,WGA amplification approach
+wga_amp_kit,https://w3id.org/mixs/0000006,WGA amplification kit
+bin_param,https://w3id.org/mixs/0000077,binning parameters
+bin_software,https://w3id.org/mixs/0000078,binning software
+reassembly_bin,https://w3id.org/mixs/0000079,reassembly post binning
+mag_cov_software,https://w3id.org/mixs/0000080,MAG coverage software
+vir_ident_software,https://w3id.org/mixs/0000081,viral identification software
+pred_genome_type,https://w3id.org/mixs/0000082,predicted genome type
+pred_genome_struc,https://w3id.org/mixs/0000083,predicted genome structure
+detec_type,https://w3id.org/mixs/0000084,detection type
+otu_class_appr,https://w3id.org/mixs/0000085,OTU classification approach
+otu_seq_comp_appr,https://w3id.org/mixs/0000086,OTU sequence comparison approach
+otu_db,https://w3id.org/mixs/0000087,OTU database
+host_pred_appr,https://w3id.org/mixs/0000088,host prediction approach
+host_pred_est_acc,https://w3id.org/mixs/0000089,host prediction estimated accuracy
+url,https://w3id.org/mixs/0000091,relevant electronic resources
+sop,https://w3id.org/mixs/0000090,relevant standard operating procedures
+pcr_primer_forward,http://rs.gbif.org/terms/pcr_primer_forward,
+pcr_primer_reverse,http://rs.gbif.org/terms/pcr_primer_reverse,
+pcr_primer_name_forward,http://rs.gbif.org/terms/pcr_primer_name_forward,
+pcr_primer_name_reverse,http://rs.gbif.org/terms/pcr_primer_name_reverse,
+pcr_primer_reference,http://rs.gbif.org/terms/pcr_primer_reference,
+DNA_sequence,http://rs.gbif.org/terms/dna_sequence,
+concentration,http://data.ggbn.org/schemas/ggbn/terms/concentration,
+concentrationUnit,http://data.ggbn.org/schemas/ggbn/terms/concentrationUnit,
+methodDeterminationConcentrationAndRatios,http://data.ggbn.org/schemas/ggbn/terms/methodDeterminationConcentrationAndRatios,
+ratioOfAbsorbance260_230,http://data.ggbn.org/schemas/ggbn/terms/ratioOfAbsorbance260_230,
+ratioOfAbsorbance260_280,http://data.ggbn.org/schemas/ggbn/terms/ratioOfAbsorbance260_280,
+annealingTemp,http://rs.gbif.org/terms/miqe/annealingTemp,
+annealingTempUnit,http://rs.gbif.org/terms/miqe/annealingTempUnit,
+probeReporter,http://rs.gbif.org/terms/miqe/probeReporter,
+probeQuencher,http://rs.gbif.org/terms/miqe/probeQuencher,
+ampliconSize,http://rs.gbif.org/terms/miqe/ampliconSize,
+thresholdQuantificationCycle,http://rs.gbif.org/terms/miqe/thresholdQuantificationCycle,
+baselineValue,http://rs.gbif.org/terms/miqe/baselineValue,
+quantificationCycle,http://rs.gbif.org/terms/miqe/quantificationCycle,
+automaticThresholdQuantificationCycle,http://rs.gbif.org/terms/miqe/automaticThresholdQuantificationCycle,
+automaticBaselineValue,http://rs.gbif.org/terms/miqe/automaticBaselineValue,
+contaminationAssessment,http://rs.gbif.org/terms/miqe/contaminationAssessment,
+partitionVolume,http://rs.gbif.org/terms/miqe/partitionVolume,
+partitionVolumeUnit,http://rs.gbif.org/terms/miqe/partitionVolumeUnit,
+estimatedNumberOfCopies,http://rs.gbif.org/terms/miqe/estimatedNumberOfCopies,
+amplificationReactionVolume,http://rs.gbif.org/terms/miqe/amplificationReactionVolume,
+amplificationReactionVolumeUnit,http://rs.gbif.org/terms/miqe/amplificationReactionVolumeUnit,
+pcr_analysis_software,http://rs.gbif.org/terms/miqe/pcr_analysis_software,
+experimentalVariance,http://rs.gbif.org/terms/miqe/experimentalVariance,
+pcr_primer_lod,http://rs.gbif.org/terms/miqe/pcr_primer_lod,
+pcr_primer_loq,http://rs.gbif.org/terms/miqe/pcr_primer_loq,
